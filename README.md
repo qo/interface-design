@@ -10,5 +10,5 @@ Open `Makefile` in order to look for a desired `target` and run the following co
 
 # Dependencies
 
-`go` - 1.20 or higher
-`python` - 3.12 or higher
+- `go` - 1.20 or higher
+- `python` - 3.12 or higher
