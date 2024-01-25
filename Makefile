@@ -6,3 +6,6 @@ mt:
 ppr:
 	go run ./piper/main.go
 
+# Single-threaded non-multiplexed echoserver implementation
+echo-st:
+	python ./echo/st/main.py
