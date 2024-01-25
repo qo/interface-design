@@ -18,9 +18,11 @@ This implementation is a single-threaded echo server. It works as follows:
 ### After the client has connected and sent a message
 
 
-```Created server sock <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 1337)>
+```
+Created server sock <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 1337)>
 Created client sock <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 1337), raddr=('127.0.0.1', 51216)> with addr ('127.0.0.1', 51216)
-Received b'GET / HTTP/1.1\r\nHost: 127.0.0.1:1337\r\nUser-Agent: curl/8.0.1\r\nAccept: */*\r\n\r\n' from ('127.0.0.1', 51216) at <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 1337), raddr=('127.0.0.1', 51216)>```
+Received b'GET / HTTP/1.1\r\nHost: 127.0.0.1:1337\r\nUser-Agent: curl/8.0.1\r\nAccept: */*\r\n\r\n' from ('127.0.0.1', 51216) at <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 1337), raddr=('127.0.0.1', 51216)>
+```
 
 ## Client
 
@@ -30,7 +32,9 @@ Received b'GET / HTTP/1.1\r\nHost: 127.0.0.1:1337\r\nUser-Agent: curl/8.0.1\r\nA
 
 ### Getting the request back
 
-```GET / HTTP/1.1
+```
+GET / HTTP/1.1
 Host: 127.0.0.1:1337
 User-Agent: curl/8.0.1
-Accept: */*```
+Accept: */*
+```
