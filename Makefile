@@ -2,3 +2,7 @@
 mt:
 	go run ./multithreading/main.go
 
+ppr:
+	go run ./piper/main.go
+
+
