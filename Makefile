@@ -9,3 +9,7 @@ ppr:
 # Single-threaded non-multiplexed echoserver implementation
 echo-st:
 	python ./echo/st/main.py
+
+# Milti-threaded non-multiplexed echoserver implementation
+echo-mt:
+	python ./echo/mt/main.py
