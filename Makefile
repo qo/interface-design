@@ -6,10 +6,18 @@ mt:
 ppr:
 	go run ./piper/main.go
 
-# Single-threaded non-multiplexed echoserver implementation
+# Single-threaded non-multiplexed echo server implementation
 echo-st:
 	python ./echo/st/main.py
 
-# Milti-threaded non-multiplexed echoserver implementation
+# Milti-threaded non-multiplexed echo server implementation
 echo-mt:
 	python ./echo/mt/main.py
+
+# Single-threaded multiplexed echo server implementation
+echo-stmx:
+	python ./echo/stmx/main.py
+
+# Multi-threaded multiplexed echo server implementation
+echo-mtmx:
+	python ./echo/mtmx/main.py
